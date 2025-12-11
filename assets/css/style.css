@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  width: 90vw;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+
+.corpoHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.corpoNavHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tamanhoEspacoHeader1 {
+  flex: 2;
+}
+
+.tamanhoEspacoHeader2 {
+  flex: 1;
+}
+
+.corpoMain {
+  display: flex;
+}
+
+.corpoMain h2 {
+  font-size: 40px;
+}
+
+.corpoMain p {
+  font-size: 16px;
+  color: rgb(165, 167, 168);
+}
+
+.corpoMain button {
+  padding: 16px 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(46, 96, 211);
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
