@@ -7,6 +7,21 @@ body {
   color: white;
 }
 
+.container {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  /* opcional */
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+
+.corpoNavHeader div {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
 .corpoHeader {
   display: flex;
   justify-content: space-between;
@@ -16,6 +31,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.corpoNavHeader div {
+  margin-left: 30px;
+  cursor: pointer;
 }
 
 .tamanhoEspacoHeader1 {
@@ -34,6 +54,9 @@ body {
 .corpoMain {
   display: flex;
   height: 500px;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 0;
 }
 
 .corpoMain h2 {
@@ -43,6 +66,8 @@ body {
 .corpoMain p {
   font-size: 16px;
   color: rgb(165, 167, 168);
+  max-width: 400px;
+  line-height: 1.6;
 }
 
 .corpoMain button {
@@ -76,6 +101,9 @@ body {
   }
   .corpoMain1 {
     text-align: center;
+  }
+  .corpoMain2 {
+    margin-top: 30px;
   }
   .corpoMain2Img {
     justify-content: center;

@@ -1,3 +1,8 @@
+.corpoNavHeader div {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
 .corpoHeader {
     display: flex;
     justify-content: space-between;
@@ -7,6 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.corpoNavHeader div {
+    margin-left: 30px;
+    cursor: pointer;
 }
 
 .tamanhoEspacoHeader1 {
